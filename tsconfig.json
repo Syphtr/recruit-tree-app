@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "paths": {
+      // root paths
+      "@server/*": ["../apps/server/src/*"],
+      "@web/*": ["./apps/web/*"],
+      // nextJs paths
+      "@app/*": ["./apps/web/src/app/*"],
+      "@components/*": ["./apps/web/src/components/*"],
+      "@lib/*": ["./apps/web//src/lib/*"],
+      "@styles/*": ["./apps/web//src/styles/*"],
+      "types/*": ["./apps/web//src/types/*"],
+      "utils/*": ["./apps/web//src/utils/*"]
+    }
+  }
+}
