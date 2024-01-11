@@ -54,7 +54,7 @@ model Experience {
   title                        String
   description                  String?
   location                     String?
-  starts_at                    DateTime
+  starts_at                    DateTime?
   ends_at                      DateTime?
   company_linkedin_profile_url String?
   logo_url                     String?
